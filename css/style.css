@@ -45,6 +45,7 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 }
 
 #mainnav a{
+	position: relative;
 	color: #000;
 }
 
@@ -127,7 +128,7 @@ section h2 span {
 	min-width: 400px;
 	max-width: 400px;
 	list-style: none;
-	margin: 0 auto 0 6em;
+	margin: auto;
 	padding-left: 20px;
 	border-left: 6px solid #a7be18;
 	box-sizing: border-box;
@@ -190,7 +191,7 @@ section h2 span {
 	min-width: 400px;
 	max-width: 400px;
 	list-style: none;
-	margin: 0 auto 0 6em;
+	margin: auto;
 	padding-left: 20px;
 	border-left: 6px solid #a7be18;
 	box-sizing: border-box;
@@ -253,7 +254,7 @@ section h2 span {
 	min-width: 400px;
 	max-width: 400px;
 	list-style: none;
-	margin: 0 auto 0 6em;
+	margin: auto;
 	padding-left: 20px;
 	border-left: 6px solid #a7be18;
 	box-sizing: border-box;
@@ -315,7 +316,7 @@ section h2 span {
 	min-width: 400px;
 	max-width: 400px;
 	list-style: none;
-	margin: 0 auto 0 6em;
+	margin: auto;
 	padding-left: 20px;
 	border-left: 6px solid #a7be18;
 	box-sizing: border-box;
@@ -661,7 +662,7 @@ section h2 span {
 	#headerWrap{
 		position: relative;
 		width: 100%;
-		height: 70px;
+		height: 100%;
 		background: #fff;
 		border-bottom: 1px solid #ccc;
 	}
@@ -738,10 +739,10 @@ section h2 span {
 		width: 100%;
 		display: none;
 		overflow: hidden;
-		position: relative;
+		position: absolute;
 		left: 0;
 		top: 0;
-		z-index: 100;
+		z-index: 600;
 	}
 
 	#mainnav{
