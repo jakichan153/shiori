@@ -128,7 +128,7 @@ section h2 span {
 	min-width: 400px;
 	max-width: 400px;
 	list-style: none;
-	margin: auto;
+	margin: 0 auto;
 	padding-left: 20px;
 	border-left: 6px solid #a7be18;
 	box-sizing: border-box;
@@ -191,7 +191,7 @@ section h2 span {
 	min-width: 400px;
 	max-width: 400px;
 	list-style: none;
-	margin: auto;
+	margin: 0 auto;
 	padding-left: 20px;
 	border-left: 6px solid #a7be18;
 	box-sizing: border-box;
@@ -254,7 +254,7 @@ section h2 span {
 	min-width: 400px;
 	max-width: 400px;
 	list-style: none;
-	margin: auto;
+	margin: 0 auto;
 	padding-left: 20px;
 	border-left: 6px solid #a7be18;
 	box-sizing: border-box;
@@ -316,7 +316,7 @@ section h2 span {
 	min-width: 400px;
 	max-width: 400px;
 	list-style: none;
-	margin: auto;
+	margin: 0 auto;
 	padding-left: 20px;
 	border-left: 6px solid #a7be18;
 	box-sizing: border-box;
