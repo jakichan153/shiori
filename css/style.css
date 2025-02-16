@@ -768,11 +768,20 @@ section h2 span {
 		padding-top: 60px;
 		z-index: -100;
 	}
+	#map iframe{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
+	border: 0;
+}
 	.col3 li{
 		margin: 50px auto 0 auto;
 		display: block;
 	}
 	section{
+		width: 100%;
 		padding-top: 50px;
 	}
 	section h2{
