@@ -687,29 +687,8 @@ section h2 span {
   	margin: 10px;
 	}
 
-	#menuBtn{
-  	display: block;
-  	position: absolute;
-  	top: 60%;
-  	left: 50%;
-  	width: 18px;
-  	height: 2px;
-  	margin: -1px 0 0 -7px;
-  	background: #000;
-  	transition: .2s;
-	}
 
-	#menuBtn:before, #menuBtn:after{
-  	display: block;
-  	content: "";
-  	position: absolute;
-  	top: 50%;
-  	left: 0;
-  	width: 18px;
-  	height: 2px;
-  	background: #000;
-  	transition: .3s;
-	}
+
 
 	#menuBtn:before{
   	margin-top: -7px;
@@ -723,8 +702,9 @@ section h2 span {
   	background: transparent;
 	}
 
-	a#menu .close:before, a#menu .close:after{
+	a#menu .close:before ~ a#menu .close:after{
   	margin-top: 0;
+	  display: block;
 	}
 
 	a#menu .close:before{
@@ -738,7 +718,7 @@ section h2 span {
 	}
 
 	.panel{
-		width: 100%;
+		width: 45%;
 		display: none;
 		overflow: hidden;
 		position: absolute;
